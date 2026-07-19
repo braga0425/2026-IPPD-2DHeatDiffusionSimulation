@@ -1,3 +1,8 @@
+# Simulação de Difusão de Calor em Domínio 2D — MPI + OpenMP
+
+Implementação híbrida da equação do calor em duas dimensões, desenvolvida para
+a disciplina de IPPD.
+
 ## Execução
 
 ```sh
@@ -24,4 +29,7 @@ para as medições de speedup/eficiência variando `-np` e `OMP_NUM_THREADS`.
 python visualizar.py saida          # gera PNGs em saida/imagens/
 python visualizar.py saida --gif    # também gera saida/animacao.gif
 ```
-Grupo: Leonardo Braga, Fabricio Fiss Bartz, Victor dos Santos Reis
+
+## Integrantes
+
+Fabricio Bartz, Leonardo Braga e Victor Reis.
