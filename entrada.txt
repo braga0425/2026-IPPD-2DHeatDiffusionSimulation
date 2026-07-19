@@ -1,0 +1,25 @@
+# Geometria: Dimensões da Grade (NX Linhas, NY Colunas)
+200 200
+
+# Difusividade Térmica (alpha)
+0.1
+
+# Discretização: dx dy dt
+# Estabilidade (metodo explícito): alpha*dt*(1/dx^2 + 1/dy^2) <= 0.5
+0.01 0.01 0.0002
+
+# Número de passos de tempo e intervalo de salvamento.
+2000 200
+
+# Condições de Contorno (Dirichlet): T_topo T_base T_esquerda T_direita
+100.0 0.0 50.0 50.0
+
+# Condição Inicial: Temperatura do Interior
+20.0
+
+# Fontes de Calor: Número de Fontes
+2
+
+# Cada Fonte: i0 j0 i1 j1 temperatura (retângulo a temperatura fixa)
+40 40 70 70 500.0
+120 130 150 170 -50.0
