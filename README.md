@@ -24,3 +24,4 @@ para as medições de speedup/eficiência variando `-np` e `OMP_NUM_THREADS`.
 python visualizar.py saida          # gera PNGs em saida/imagens/
 python visualizar.py saida --gif    # também gera saida/animacao.gif
 ```
+Grupo: Leonardo Braga, Fabricio Fiss Bartz, Victor dos Santos Reis
